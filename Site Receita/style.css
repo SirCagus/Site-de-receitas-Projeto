@@ -1,0 +1,117 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.cabecalho {
+    background-color: #7e209b;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.divTituloeTema {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-Github{
+    height: 65px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagem-Github:hover{
+    transform: scale(1.05);
+}
+
+.imagemdoHub {
+    border-radius: 33px;
+    box-shadow: 0px 10px 20px black;
+}
+/* Container Principal */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Estilos da Receita */
+.receita {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.receita h2 {
+    color: #7e209b;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.imagem-receita {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.descricao {
+    font-style: italic;
+    color: #666;
+    text-align: center;
+}
+
+.sessao {
+    margin-top: 2rem;
+}
+
+.sessao h3 {
+    color: #7e209b;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 0.5rem;
+}
+
+.sessao ul,
+.sessao ol {
+    padding-left: 20px;
+}
+
+.sessao li {
+    margin-bottom: 0.5rem;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #7e209b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.github {
+    transform: ;
+}
